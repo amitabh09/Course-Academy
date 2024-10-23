@@ -1,0 +1,193 @@
+/*----------------------------------------------------- Navbar CSS Code Starts ----------------------------------------------------- */
+
+.navcontainer2 {
+    background-color: white;
+    height: 84px;
+    padding-top: 10px;
+    padding-left: 160px;
+    padding-right: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(229, 221, 221);
+}
+
+.nav2imgsection{
+}
+.nav2dropsection{
+    width: 620px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav2dropsection>div>select{
+    font-size: 16px !important;
+    background-color: white;
+    width: 140px;
+}
+
+.nav2buttonsection{
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navcontainer2 > div > select {
+    font-size: 12px;
+    background-color: white;
+}
+.navbutton1{
+    width: 110px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 16pxccccccccccccccc;
+}
+.navbutton2{
+    width: 110px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+
+
+.navcontainer1 {
+    background-color: #e8e8e8;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #191919;
+    font-weight: 300;
+}
+
+.locdropdown {
+    background-color: #e8e8e8;
+    height: 25px;
+    width: 140px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 1px solid black;
+}
+.langdropdown {
+    background-color: #e8e8e8;
+    height: 25px;
+    width: 140px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.rightflex {
+    /* border: 1px solid red; */
+    margin-left: 140px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+/*----------------------------------------------------- Navbar CSS Code Ends ------------------------------------------------------ */
+
+/*----------------------------------------------------- Featured Courses Starts --------------------------------------------------- */
+.featuredCourse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 50px;
+
+}
+.fcHeading {
+    margin-top: 100px;
+    font-size: 60px;
+    font-weight: 400;
+    color: green;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.featuredCourse1, .featuredCourse2, .featuredCourse3 {
+    height: 900px;
+    border: 1px solid rgb(229, 221, 221);
+    border-radius: 5px;
+}
+.featuredCourse1 {
+    z-index: 100;
+    width: 31%;
+}
+.featuredCourse1>div {
+    padding: 30px;
+}
+.featuredCourse2 {
+    z-index: 100;
+    width: 31%;
+}
+.featuredCourse2>div {
+    padding: 30px;
+}
+.featuredCourse3 {
+    z-index: 100;
+    width: 31%;
+}
+.featuredCourse3>div {
+    padding: 30px;
+}
+
+.fc_course_button {
+}
+.fc_course_button>button {
+    font-weight: 700;
+    color: #191919;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid 191919;
+    padding: 8px 24px;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 5rem;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+.fc_course_name {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.fc_course_desc {
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: justify;
+}
+.fc_course_duration, .fc_course_start {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: justify;
+}
+/*----------------------------------------------------- Featured Courses Ends ----------------------------------------------------- */
+
+
+
+
+
+
